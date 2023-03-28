@@ -45,15 +45,19 @@ elif figura=="trapez":
     b=float(input("podaj dlugość dolnego boku trapezu: "))
     h=float(input("podaj wysokość trapezu: "))
     c=a+b
-    if a>0 and b>0 and h>0:
-        pole4=0.5*c*h
-        print("pole twojego trapezu to: " , pole4)
-    else :
+    while a<=0 or b<=0 or h<=0:
         print("podaj liczby dodatnie")
+        a=float(input("podaj dlugość górnego boku trapezu: "))
+        b=float(input("podaj dlugość dolnego boku trapezu: "))
+        h=float(input("podaj wysokość trapezu: "))
+    pole4=0.5*c*h
+    print("pole twojego trapezu to: " , pole4)
+   
 elif figura=="koło":
     r=float(input("podaj promień koła: "))
-    if r>0 :
-        pole5=r**2*math.pi
-        print("pole twojego kołą to: " , pole5) 
-    else :
+    while r<=0 :
         print("podaj liczby dodatnie")
+        r=float(input("podaj promień koła: "))
+    pole5=r**2*math.pi
+    print("pole twojego kołą to: " , pole5) 
+    
