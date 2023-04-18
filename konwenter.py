@@ -171,7 +171,6 @@ elif a=="cm2" and b=="m2":
                 c=float(input("podaj wartość: "))
         print(c/10000,"m2")
 elif a=="cm2" and b=="km2":
-        print(c/10000000000,"km2")
         while c<0:
                 print("podaj wartosć dodatnią")
                 a=input("wybierz jednostkę którą przekształcasz (m, cm, mm, km,   m2, cm2, mm2, km2,   m3, cm3, mm3, km3  ): ")
@@ -180,48 +179,51 @@ elif a=="cm2" and b=="km2":
         print(c/10000000000,"km2")
 
 elif a=="m2" and b=="mm2":
+
+        while c<0:
+                print("podaj wartosć dodatnią")
+                a=input("wybierz jednostkę którą przekształcasz (m, cm, mm, km,   m2, cm2, mm2, km2,   m3, cm3, mm3, km3  ): ")
+                b=input("wybierz jednostkę którą chcesz otrzymac(m, cm, mm, km,   m2, cm2, mm2, km2,   m3, cm3, mm3, km3  ): ")
+                c=float(input("podaj wartość: "))
         print(c*1000000,"mm2")
-        while c<0:
-                print("podaj wartosć dodatnią")
-                a=input("wybierz jednostkę którą przekształcasz (m, cm, mm, km,   m2, cm2, mm2, km2,   m3, cm3, mm3, km3  ): ")
-                b=input("wybierz jednostkę którą chcesz otrzymac(m, cm, mm, km,   m2, cm2, mm2, km2,   m3, cm3, mm3, km3  ): ")
-                c=float(input("podaj wartość: "))
 elif a=="m2" and b=="cm2":
+        
+        while c<0:
+                print("podaj wartosć dodatnią")
+                a=input("wybierz jednostkę którą przekształcasz (m, cm, mm, km,   m2, cm2, mm2, km2,   m3, cm3, mm3, km3  ): ")
+                b=input("wybierz jednostkę którą chcesz otrzymac(m, cm, mm, km,   m2, cm2, mm2, km2,   m3, cm3, mm3, km3  ): ")
+                c=float(input("podaj wartość: "))
         print(c*10000,"cm2")
-        while c<0:
-                print("podaj wartosć dodatnią")
-                a=input("wybierz jednostkę którą przekształcasz (m, cm, mm, km,   m2, cm2, mm2, km2,   m3, cm3, mm3, km3  ): ")
-                b=input("wybierz jednostkę którą chcesz otrzymac(m, cm, mm, km,   m2, cm2, mm2, km2,   m3, cm3, mm3, km3  ): ")
-                c=float(input("podaj wartość: "))
 elif a=="m2" and b=="m2":
+        while c<0:
+                print("podaj wartosć dodatnią")
+                a=input("wybierz jednostkę którą przekształcasz (m, cm, mm, km,   m2, cm2, mm2, km2,   m3, cm3, mm3, km3  ): ")
+                b=input("wybierz jednostkę którą chcesz otrzymac(m, cm, mm, km,   m2, cm2, mm2, km2,   m3, cm3, mm3, km3  ): ")
+                c=float(input("podaj wartość: "))
         print(c,"m2")
-        while c<0:
-                print("podaj wartosć dodatnią")
-                a=input("wybierz jednostkę którą przekształcasz (m, cm, mm, km,   m2, cm2, mm2, km2,   m3, cm3, mm3, km3  ): ")
-                b=input("wybierz jednostkę którą chcesz otrzymac(m, cm, mm, km,   m2, cm2, mm2, km2,   m3, cm3, mm3, km3  ): ")
-                c=float(input("podaj wartość: "))
 elif a=="m2" and b=="km2":
-        print(c/1000000,"km2")
+        
         while c<0:
                 print("podaj wartosć dodatnią")
                 a=input("wybierz jednostkę którą przekształcasz (m, cm, mm, km,   m2, cm2, mm2, km2,   m3, cm3, mm3, km3  ): ")
                 b=input("wybierz jednostkę którą chcesz otrzymac(m, cm, mm, km,   m2, cm2, mm2, km2,   m3, cm3, mm3, km3  ): ")
                 c=float(input("podaj wartość: "))
+        print(c/1000000,"km2")
 
 elif a=="km2" and b=="mm2":
+        while c<0:
+                print("podaj wartosć dodatnią")
+                a=input("wybierz jednostkę którą przekształcasz (m, cm, mm, km,   m2, cm2, mm2, km2,   m3, cm3, mm3, km3  ): ")
+                b=input("wybierz jednostkę którą chcesz otrzymac(m, cm, mm, km,   m2, cm2, mm2, km2,   m3, cm3, mm3, km3  ): ")
+                c=float(input("podaj wartość: "))
         print(c*1000000000000,"mm2")
-        while c<0:
-                print("podaj wartosć dodatnią")
-                a=input("wybierz jednostkę którą przekształcasz (m, cm, mm, km,   m2, cm2, mm2, km2,   m3, cm3, mm3, km3  ): ")
-                b=input("wybierz jednostkę którą chcesz otrzymac(m, cm, mm, km,   m2, cm2, mm2, km2,   m3, cm3, mm3, km3  ): ")
-                c=float(input("podaj wartość: "))
 elif a=="km2" and b=="cm2":
-        print(c*10000000000,"cm2")
         while c<0:
                 print("podaj wartosć dodatnią")
                 a=input("wybierz jednostkę którą przekształcasz (m, cm, mm, km,   m2, cm2, mm2, km2,   m3, cm3, mm3, km3  ): ")
                 b=input("wybierz jednostkę którą chcesz otrzymac(m, cm, mm, km,   m2, cm2, mm2, km2,   m3, cm3, mm3, km3  ): ")
                 c=float(input("podaj wartość: "))
+        print(c*10000000000,"cm2")
 elif a=="km2" and b=="m2":
         while c<0:
                 print("podaj wartosć dodatnią")
