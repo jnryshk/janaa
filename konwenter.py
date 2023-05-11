@@ -355,4 +355,4 @@ elif a=="mm3" and b=="km3":
                 c=float(input("podaj wartość: "))
         print(c/1000000000000000000,"km3")
 else:
-        print("wybieraj wśród PODANYCH jednostek")
+        print("wybieraj wśród PODANYCH jednostek i pamietaj ze nie da sie przekształcić np jednostek kwadratowych na zwykłe i td")

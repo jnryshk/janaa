@@ -40,3 +40,6 @@ elif BMI >=40 :
         print("podaj dodatnie wartości")
     print( ''' twój BMI wskazuje na to ze masz 3 stopień otyłości.
     Otyłość olbrzymia zawsze wymaga interwencji chirurgicznej.''')
+a=wzrost*wzrost*18.5 
+b=wzrost*wzrost*25 
+print("twoja prawidłowa waga: " '%.2f'%a "kg - " ,'%.2f'%b "kg")
