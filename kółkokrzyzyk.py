@@ -7,7 +7,7 @@ def print_board():
         print((' '* 3 +'|')*3)
         print( '', board[i*3], '|' ,board[1 + i * 3], '|', board[2+i*3], '|')
         print(('_'* 3 +'|')*3)
-def game_step():
+def game_step(inde):
     pass      
 
 def check_win():
