@@ -42,4 +42,4 @@ elif BMI >=40 :
     Otyłość olbrzymia zawsze wymaga interwencji chirurgicznej.''')
 a=wzrost*wzrost*18.5 
 b=wzrost*wzrost*25 
-print("twoja prawidłowa waga: " '%.2f'%a "kg - " ,'%.2f'%b "kg")
+print("twoja prawidłowa waga: %.2f kg" %a, " - %.2f kg" %b)
